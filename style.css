@@ -5,16 +5,18 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #8fe0ff;
+    background:linear-gradient(135deg,#a8f0ee,#0a94b3);
+    height: 865px;
 }
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #f6e126, #f8503d);
+    background: linear-gradient(135deg,#f6e126, #f8503d);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 300px auto 0;
     padding: 40px 35px;
     border-radius: 15px;
+
 }
 .search {
     width: 100%;

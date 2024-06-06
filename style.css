@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 body {
-    background:linear-gradient(135deg,#a8f0ee,#0a94b3);
+    background:linear-gradient(135deg,#00B4DB, #03045E);
     height: 865px;
+    overflow: hidden;
 }
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg,#f6e126, #f8503d);
+    background: linear-gradient(130deg, #00203FFF, #ADEFD1FF);
     color: #fff;
     margin: 300px auto 0;
     padding: 40px 35px;
@@ -89,4 +90,14 @@ body {
 .humidity, .wind{
     font-size: 28px;
     margin-top: -px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
